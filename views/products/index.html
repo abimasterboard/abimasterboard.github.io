@@ -1,0 +1,337 @@
+<script>
+  var requireJS = [];
+  loadJS(requireJS, "js/views/main.js");
+</script>
+<style>
+td img {width:100px;}
+.bg-danger {background-color: #f5cac9 !important;}
+</style>
+
+<!-- Breadcrumb -->
+<ol class="breadcrumb">
+  <li class="breadcrumb-item">Home</li>
+  <li class="breadcrumb-item"><a href="#">Products Grade</a></li>
+
+  <!-- Breadcrumb Menu-->
+  <!-- <li class="breadcrumb-menu d-md-down-none nav-ajax nav">
+    <div class="btn-group" role="group" aria-label="Button group">
+      <a class="btn active" href="#"><i class="fa fa-user-circle"></i> Grade A</a>
+      <a class="btn" href="#"><i class="fa fa-user-circle-o"></i> Grade B</a>
+      <a class="btn" href="#"><i class="fa fa-user-times"></i> Grade C</a>
+    </div>
+  </li> -->
+</ol>
+
+<div class="container">
+  <div class="animated fadeIn">
+
+    <div class="card">
+      <div class="card-body">
+       <div class="row">
+        <div class="col-lg-12">
+          <div class="card">
+
+            <div class="card-footer">
+              <ul>
+                <li>
+                  <div class="text-muted">Total Products</div>
+                  <strong>85 product variants</strong>
+                  <div class="progress progress-xs mt-2">
+                    <div class="progress-bar bg-success" role="progressbar" style="width: 100%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </li>
+                <li class="d-none d-md-table-cell">
+                  <div class="text-muted">Best Selling</div>
+                  <strong>63 products (74,1%)</strong>
+                  <div class="progress progress-xs mt-2">
+                    <div class="progress-bar bg-info" role="progressbar" style="width: 74.1%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </li>
+                <li>
+                  <div class="text-muted">Late Products</div>
+                  <strong data-total="623.330.000">22 products (25,9%)</strong>
+                  <div class="progress progress-xs mt-2">
+                    <div class="progress-bar bg-warning" role="progressbar" style="width: 25.9%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </li>
+                <li class="d-none d-md-table-cell">
+                  <div class="text-muted">Total Sales</div>
+                  <strong data-total="2140">IDR 623.330.000</strong>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <i class="fa fa-align-justify"></i> Best Sales Products
+            </div>
+
+            <div class="card-body">
+              <table class="table table-responsive-sm">
+                <thead>
+                  <tr>
+                    <th>Product Image</th>
+                    <th>Product Name</th>
+                    <th>Price</th>
+                    <th>Qty Left</th>
+                    <th>Sales Amount</th>
+                    <th>Total Sales</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_ca389a1b-c178-4984-9644-4fa54e3c92ff.jpg" />
+                    </td>
+                    <td><a href="#">AISHA</a></td>
+                    <td>IDR 210.000</td>
+                    <td>4</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_d7245e2e-a5bb-4d3d-becd-50e8ca92d193.jpg" />
+                    </td>
+                    <td><a href="#">KINANTHI PINK</a></td>
+                    <td>IDR 210.000</td>
+                    <td>6</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_c9288764-2643-4748-a9c8-46d292f8e7f2.jpg" />
+                    </td>
+                    <td><a href="#">KINANTHI ORANGE</a></td>
+                    <td>IDR 230.000</td>
+                    <td>6</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_2640f168-162a-4e25-aaa5-b829998e27e3.jpg" />
+                    </td>
+                    <td><a href="#">KINANTHI DARK RED</a></td>
+                    <td>IDR 250.000</td>
+                    <td>7</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_319c51d3-cf76-4e89-b74c-88d470142126.jpg" />
+                    </td>
+                    <td><a href="#">KINANTHI MAROON</a></td>
+                    <td>IDR 250.000</td>
+                    <td>12</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_5cfd9e01-2eee-4a1c-86f7-e52f0cf20390.jpg" />
+                    </td>
+                    <td><a href="#">ZIYA MAROON</a></td>
+                    <td>IDR 225.000</td>
+                    <td>11</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_6a1b542f-ea61-4b4d-8154-5b9a515e583c.jpg" />
+                    </td>
+                    <td><a href="#">ZIYA POLOS</a></td>
+                    <td>IDR 225.000</td>
+                    <td>12</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_caa9b51a-e424-4035-bb25-9f842de8c6a4.jpg" />
+                    </td>
+                    <td><a href="#">ZIYA RENDA</a></td>
+                    <td>IDR 225.000</td>
+                    <td>12</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_07c3a9ce-9535-4e4f-b0a1-8f23aee531c8.jpg" />
+                    </td>
+                    <td><a href="#">FEYRUZ POLOS</a></td>
+                    <td>IDR 210.000</td>
+                    <td>14</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_70d954c6-cece-4017-90b1-731aad8f6e64.jpg" />
+                    </td>
+                    <td><a href="#">FEYRUZ BLUE</a></td>
+                    <td>IDR 180.000</td>
+                    <td>15</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_79c00e77-578c-4a32-bca9-aee54596d8ab.jpg" />
+                    </td>
+                    <td><a href="#">FEYRUZ DARK BLUE</a></td>
+                    <td>IDR 185.000</td>
+                    <td>16</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_9fea5f58-5fb1-4fda-811c-d4cec4035c97.jpg" />
+                    </td>
+                    <td><a href="#">FEYRUZ SKYBLUE</a></td>
+                    <td>IDR 210.000</td>
+                    <td>22</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_2c800b9a-8d7e-479b-97f1-96b9537b4a48.jpg" />
+                    </td>
+                    <td><a href="#">KALILA</a></td>
+                    <td>IDR 210.000</td>
+                    <td>22</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_8e60d9d8-0fdd-4869-a262-c71a5ca37a15.jpg" />
+                    </td>
+                    <td><a href="#">SHAKILLA</a></td>
+                    <td>IDR 225.000</td>
+                    <td>25</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_bba37bfc-8c06-4b1b-896f-3487dfdafa54.jpg" />
+                    </td>
+                    <td><a href="#">SABRINA</a></td>
+                    <td>IDR 215.000</td>
+                    <td>26</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr>
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_42e2b2d9-56b0-49f0-b670-659bc5cc7927.jpg" />
+                    </td>
+                    <td><a href="#">NARA</a></td>
+                    <td>IDR 310.000</td>
+                    <td>26</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr class="bg-danger">
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_72d98feb-ad57-4a75-b807-3549b1475c97.jpg" />
+                    </td>
+                    <td><a href="#">BUABY</a></td>
+                    <td>IDR 310.000</td>
+                    <td>26</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr class="bg-danger">
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_45843446-5be8-402e-9e9d-416814a778c2.jpg" />
+                    </td>
+                    <td><a href="#">ALMIRA BLACK</a></td>
+                    <td>IDR 210.000</td>
+                    <td>28</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr class="bg-danger">
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_3b18a500-f77e-4f4b-bc78-3b4d064b641c.jpg" />
+                    </td>
+                    <td><a href="#">ALMIRA WHITE</a></td>
+                    <td>IDR 315.000</td>
+                    <td>30</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr class="bg-danger">
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_90df56ff-9c60-427b-8ead-7cfa2b2972d4.jpg" />
+                    </td>
+                    <td><a href="#">QIRANI MAROON</a></td>
+                    <td>IDR 315.000</td>
+                    <td>29</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr class="bg-danger">
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_defc95ef-18ff-4be7-b729-ee2808b81690.jpg" />
+                    </td>
+                    <td><a href="#">QIRANI SKYBLUE</a></td>
+                    <td>IDR 212.000</td>
+                    <td>36</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr class="bg-danger">
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_e22a6e4e-10c4-46e2-ba8c-e42d605b1426.jpg" />
+                    </td>
+                    <td><a href="#">ADARRA ORANGE</a></td>
+                    <td>IDR 212.000</td>
+                    <td>47</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  <tr class="bg-danger">
+                    <td>  
+                      <img src="https://ecs7.tokopedia.net/img/cache/200-square/product-1/2016/10/3/10968909/10968909_2001597d-a2b5-48c8-88aa-4d246ef3891f.jpg" />
+                    </td>
+                    <td><a href="#">ADARRA PINK</a></td>
+                    <td>IDR 212.000</td>
+                    <td>36</td>
+                    <td>32</td>
+                    <td>IDR 3.345.000</td>
+                  </tr>
+                  
+                </tbody>
+              </table>
+
+          <ul class="pagination">
+            <li class="page-item"><a class="page-link" href="#">Prev</a></li>
+            <li class="page-item active">
+              <a class="page-link" href="#">1</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--/.col-->
+
+  </div>
+</div>
+</div>
+<!--/.card-->
+<!--/.row-->
+</div>
+</div>
